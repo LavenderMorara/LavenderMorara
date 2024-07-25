@@ -16,5 +16,5 @@ function makeShoppingList(shoppingItem){
     document.querySelector('#shoppingList_container').appendChild(p);
 }
 function clearItem(e){
-    e.targepat.parentNode.remove();
+    e.target.parentNode.remove();
 }
